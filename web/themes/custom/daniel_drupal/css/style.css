@@ -1,0 +1,210 @@
+#myCarousel .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+#myCarousel .carousel-indicators > li.active img {
+    opacity: 0.7;
+}
+
+#slider-accueil .carousel-item {
+    height: 500px !important;
+}
+
+
+.container-fluid h2{
+    font-weight: bold;
+    color: red;
+    text-shadow: 1px 2px 3px #000;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    
+}
+
+.fonction-blockus img{
+    width: 20vw;
+    height: 185px;
+}
+
+.fonction-blockus h3{
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 1px 1px 2px red;
+}
+
+.fonction-blockus p {
+     padding-left:2vw; 
+     text-overflow: ellipsis; 
+     overflow: hidden;
+     width: 100%;
+     line-height: 25px; 
+     display: -webkit-box; 
+     -webkit-line-clamp: 5; 
+     -webkit-box-orient: vertical; 
+} 
+
+
+/*** VOIR LE CONTENU EN FULL SUR UNE PAGE **/
+.node--view-mode-full p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.node--view-mode-full img{
+    width: 100% !important;
+    height: auto !important;
+}
+
+.node--view-mode-full .field__label, .field--name-field-text-lien-fonctionnement .field__item{
+    display: none;
+}
+
+
+/******* *******/
+
+
+
+div#views-bootstrap-vue-raison-officiel-block-1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slider-accueil .carousel-indicators{
+    background:#000;
+}
+
+.card .btn-link {
+    color: black;
+    font-weight: bold;
+}
+.accordion-accueil .card{
+    background: orange;
+    color: #fff;
+}
+
+.produits-block img{
+    width: 100% ;
+    height: auto;
+}
+
+.produits-block{
+    background: #3f0147;
+    font-weight: bold;
+    color: #fff;
+}
+
+.page-carte-mondial .main-content {
+    background: orange;
+    padding-top: 3px;
+    padding-bottom: 13px;
+}
+
+
+nav#navbar-main {
+    background: black;
+    font-weight: bold;
+    padding-left: 3rem;
+}
+nav#navbar-main img , .site-footer__bottom  img{
+    width: 149px;
+}
+nav#navbar-main a , .site-footer__bottom a{
+    color: #fff;
+}
+
+
+footer{
+    background: black;
+    font-weight: bold;
+}
+
+.site-footer__bottom{
+    border-top: none;
+}
+.site-footer{
+    padding-top: 20px;
+    margin-top: 4rem;
+}
+
+#superfish-footer{
+    float: left;
+}
+
+#superfish-main , #superfish-footer--2{
+    float: right;
+}
+
+div#block-pieddepage {
+    width: 34%;
+}
+
+div#block-pieddepage-2 {
+    width: 35%;
+}
+
+a.navbar-brand {
+    font-size: 10px;
+}
+
+.pirates-col-views:hover {
+    background: gray;
+    border: 2px solid orange;
+    border-radius: 0px 5rem 0 5rem;
+    color: #fff;
+    margin-top: -4rem;
+    font-weight: bold;
+    transition: margin-top 1s;
+}
+
+.page-home .card{
+    margin-bottom: 2rem;
+
+}
+.titro-raison img{
+    width: 100%;
+    height: auto;
+}
+.card-body .views-field.views-field-title{
+    display: none;
+}
+
+
+
+.prod-image {
+    position: relative;
+}
+
+.overlayinn {
+    background-color: #00b69eb3;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 70px;
+    transition: opacity 0.8s;
+    
+}
+.overlayinn:hover {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+  .overlayinn h4{
+    padding-top: 5rem;
+    font-weight: bold;
+  }

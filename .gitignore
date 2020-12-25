@@ -1,0 +1,21 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+vendor/*
+sites/*/*services*.yml
+
+# Ignore paths that may contain user-generated content
+# Ignore paths that may contain temporary files
+sites/*/translations
+sites/*/tmp
+sites/*/cache
+sites/default/files/php/*
+# Ignore testing related files
+sites/simpletest
+
+# Ignore drupal core (if not versioning drupal sources)
+# System Files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
