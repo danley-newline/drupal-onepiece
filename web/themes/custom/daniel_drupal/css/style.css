@@ -1,3 +1,37 @@
+/*** Video page accueil  ***/
+#block-videoprincipalheader {
+    width: 100%;
+}
+
+iframe.embed-responsive-item {
+    height: 85% !important;
+}
+
+.signature-one {
+    position: absolute;
+    top: 6rem;
+    width: 100%;
+    text-align: center;
+}
+
+.signature-one h3 {
+    font-weight: bold;
+    text-shadow: 1px 1px 0px yellow;
+}
+
+.signature-one h4 {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+
+/*---------- FIN Video page accueil   ------- */
+
+
+
+
 #myCarousel .list-inline {
     white-space:nowrap;
     overflow-x:auto;

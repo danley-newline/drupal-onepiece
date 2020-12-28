@@ -17,6 +17,7 @@ regions:
   primary_menu: 'Primary menu'
   secondary_menu: 'Secondary menu'
   page_top: 'Page top'
+  region_danilo: 'Espace danilo affiche user connecté'
   page_bottom: 'Page bottom'
   highlighted: Highlighted
   featured_top: 'Featured top'

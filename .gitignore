@@ -1,8 +1,9 @@
 # Ignore configuration files that may contain sensitive information.
-sites/*/settings*.php
 
-./vendor
-sites/*/*services*.yml
+vendor/
+web/sites/*/*services*.yml
+web/sites/*/cache
+
 
 # Ignore paths that may contain user-generated content
 # Ignore paths that may contain temporary files
