@@ -25,7 +25,7 @@
 }
 
 
-.container-fluid h2{
+.container-fluid h2, .views-raison h4{
     font-weight: bold;
     color: red;
     text-shadow: 1px 2px 3px #000;
@@ -119,11 +119,15 @@ nav#navbar-main {
     font-weight: bold;
     padding-left: 3rem;
 }
-nav#navbar-main img , .site-footer__bottom  img{
+nav#navbar-main img , .site-footer__bottom  img, #login_box img, #regi_box img{
     width: 149px;
 }
 nav#navbar-main a , .site-footer__bottom a{
     color: #fff;
+}
+
+#block-menudeconnection, #block-menuconnection{
+    width: 20% !important;
 }
 
 
@@ -181,7 +185,15 @@ a.navbar-brand {
 .card-body .views-field.views-field-title{
     display: none;
 }
+.card-body {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+}
 
+.views-raison p {
+    text-shadow: 2px 2px 2px red;
+    font-style: italic;
+}
 
 
 .prod-image {
@@ -208,3 +220,95 @@ a.navbar-brand {
     padding-top: 5rem;
     font-weight: bold;
   }
+
+    .page-contact form{
+        padding: 6% 12% 2% 12%;
+        background: #145d54f5;
+    }
+    .page-contact form legend {
+        font-size: 17px !important;
+    }
+    .page-contact form input, .page-contact form textarea{
+        font-weight: bold !important;
+    }
+    .page-contact .form-group label ,.page-contact .form-group legend{
+        font-weight: bold;
+        color: #84ea00;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .page-contact .js-form-type-checkbox{
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 1px 1px 5px red;
+    }
+
+    .page-contact #edit-actions {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    #edit-submit {
+        font-weight: bold;
+        background: green;
+        border: 1px solid;
+        margin-top: 1rem;
+    }
+    #edit-submit:hover{
+        background: #220038;
+    }
+
+    .page-contact #edit-actions #edit-preview {
+        display: none;
+    }
+
+
+    .page-success .valide img{
+        width: 50% !important;
+        margin-bottom: 2rem;
+    }
+
+    .page-no-found{
+        background: yellow;
+    }
+
+    .page-no-found img {
+        width: 50% !important;
+        border-radius: 50%;
+    }
+
+    #login_box ,#regi_box {
+        width: 38%;
+        text-align: center;
+        font-weight: bold;
+    }
+    #login_box #login_main_part, #regi_box #regi_main_part {
+        border-radius: 2rem;
+        border: 2px solid grey;
+    }        
+
+
+    #login_main_part h2 , #regi_main_part h2{
+        font-weight: bold;
+        text-shadow: 2px 2px 2px grey;
+        margin: 2rem 0 !important;
+    }
+
+    #login_main_part label, #regi_main_part label {
+        font-weight: bold;
+        color: red;
+    }
+
+    #login_main_part input{
+        width: 50% !important;
+        margin: 0 auto !important;
+    }
+
+    #regi_main_part .image-widget-data {
+        margin-left: 4rem;
+    }
+    .page-exterieur {
+        background: #0ad1e8 !important; 
+    }
+
+    

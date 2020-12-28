@@ -1,0 +1,22 @@
+field.formatter.settings.[email_formatter]:
+  type: mapping
+  label: 'E-mail formatter settings'
+  mapping:
+    mailto:
+      type: boolean
+      label: 'Render the e-mail address as a mailto: link'
+    truncate:
+      type: integer
+      label: 'Number of characters to truncate the e-mail address to. Zero means no truncation'
+    text:
+      type: string
+      label: 'Any text to preceed the e-mail address'
+    HTML:
+      type: string
+      label: 'Any HTML to preceed the e-mail address'
+    icon:
+      type: string
+      label: 'Any Font Awesome icon to preceed the e-mail address'
+    iconlink:
+      type: boolean
+      label: 'Render the icon as a mailto: link'

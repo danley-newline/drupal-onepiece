@@ -1,0 +1,84 @@
+<?php
+
+/**
+ * @file
+ * A module adding a field formatter for Link fields.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function email_formatter_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.email_formatter':
+      $output = '<h3>' . t('About') . '</h3>';
+
+      $output .= '<p>' . t('The <em>E-mail Formatter</em> module is a field formatter for the Email field (in Drupal 8 core) to allow:<ul><li>email field addresses to be rendered with mailto: links</li><li>long email field addresses to be truncated to a specified number of characters for rendering, followed by an ellipsis (&hellip;)</li><li>email field addresses to be preceded by<ul><li>custom text</li><li>custom HTML</li><li>an appropriate Font Awesome icon</li></ul></li></ul>') . '</p>';
+
+      $output .= '<h3>' . t('Uses') . '</h3>';
+
+      $output .= '<p>' . t('Web site adminstrators may use the E-mail Formatter module, along with the core Field UI and View UI modules, to configure the way in which email field data is presented.') . '</p>';
+
+      return $output;
+  }
+}
+
+/**
+ * Implements hook_field_formatter_info().
+ */
+function email_formatter_field_formatter_info() {
+  return [
+    'email_formatter' => [
+      'label' => t('E-mail formatter (with options)'),
+      'description' => t('Options for a mailto: link, address truncation, and addresses preceded by custom text, custom HTML and/or a Font Awesome icon'),
+      'field types' => ['email_field'],
+      'settings' => [
+        'mailto' => TRUE,
+        'truncate' => 40,
+        'text' => '',
+        'HTML' => '',
+        'icon' => 'envelope',
+        'iconlink' => TRUE,
+      ],
+    ],
+  ];
+}
+
+// @codingStandardsIgnoreStart
+/**
+ * Implements hook_theme().
+ */
+
+/*
+function link_icons_theme() {
+  return array(
+    'link_icons_formatter' => array(
+      'variables' => array(
+        '#children' => NULL,
+      ),
+      'template' => 'link-icons-formatter',
+    ),
+  );
+}
+
+/**
+ * Implements template_preprocess_link_icon_formatter().
+ *
+ * Prepares variables for link icon field templates.
+ * *
+ * Default template: link-icon-formatter.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - title: (optional) A descriptive or alternate title for the link, which
+ *     may be different than the actual link text.
+ *   - url_title: The anchor text for the link.
+ *   - url: A \Drupal\Core\Url object.
+ */
+
+/*function template_preprocess_link_icon_formatter(&$variables) {
+  $variables['link'] = \Drupal::l($variables['url_title'], $variables['url']);
+}*/
+// @codingStandardsIgnoreEnd

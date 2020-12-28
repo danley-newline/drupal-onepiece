@@ -1,0 +1,10 @@
+E-mail Formatter 8.0-1.1
+------------------------
+- Fixed truncation bugs
+- Fixed truncation settings field format
+- Fixed custom text and custom HTML sanitisation
+- Added this CHANGELOG.txt
+
+E-mail Formatter 8.0-1.0
+------------------------
+- The initial release

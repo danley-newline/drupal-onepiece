@@ -1,0 +1,13 @@
+name: 'E-mail Formatter'
+type: module
+description: 'Field formatter for the core Email field to allow e-mail addresses to be formatted in different ways'
+core: 8.x
+# version: VERSION
+package: Fields
+
+dependencies:
+
+# Information added by Drupal.org packaging script on 2019-12-16
+version: '8.x-1.1'
+project: 'email_formatter'
+datestamp: 1576500513
